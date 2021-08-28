@@ -1,61 +1,99 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 
-:root{
-    --primary-link : #23ef38;
+:root {
+  --primary-link: #23ef38;
 }
 
-
-
-body{
-    font-family: 'Lato', sans-serif;
+body {
+  font-family: "Lato", sans-serif;
 }
 
-.container{
-   
-    padding: 0rem 1rem;
+.container {
+  padding: 0rem 1rem;
 }
 
 .container-center {
-   
-    max-width: 600px; 
-    margin: auto;
+  max-width: 600px;
+  margin: auto;
 }
 
 /*hr*/
-hr{
-    margin: 2rem 0rem;
+hr {
+  margin: 2rem 0rem;
 }
 /*links*/
 
-
-.link{
-    text-decoration: none;
-    padding: 0.5rem 1rem;
+.link {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
 }
 
-.link-primary{
-    color: var(--primary-link);
-    background-color: var(--primary-link);
-    color: grey;
-    border-radius: 0.5rem;
+.link-primary {
+  color: var(--primary-link);
+  background-color: var(--primary-link);
+  color: grey;
+  border-radius: 0.5rem;
 }
 
-.link-secondary{
-    color: var(--primary-link);
-    border-radius: 0.5rem;
-    border: 1px solid var(--primary-link);
-    color: grey;
+.link-secondary {
+  color: var(--primary-link);
+  border-radius: 0.5rem;
+  border: 1px solid var(--primary-link);
+  color: grey;
 }
 
 /*lists*/
 
-.list-without-bullet{
-    
-    list-style :none;
-
+.list-without-bullet {
+  list-style: none;
 }
 
-.list-inline{
-    padding: 0rem 0.5rem;
-    display: inline;
+.list-inline {
+  padding: 0rem 0.5rem;
+  display: inline;
+}
+/*navigation*/
+
+.navigation {
+  background-color: var(--primary-link);
+  color: grey;
+  padding: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+.navigation .link {
+  color: grey;
+}
+
+.navigation .nav {
+  text-align: right;
+}
+.navigation .nav-brand {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+.navigation .link-active {
+  font-weight: bold;
+}
+ 
+/* header */
+
+.hero{
+    padding: 2rem;
+}
+
+.hero-image{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+.hero-heading{
+    padding-top: 1rem;
+    font-weight: 2rem;
+    color: gray;
+
+}
+.hero .hero-heading .hero-span{
+    color: var(--primary-link);
 }
