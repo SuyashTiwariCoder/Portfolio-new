@@ -1,108 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Suyash Component Library</title>
-    <link rel="stylesheet" href="style.css" >
-    
-  </head>
-  <body>
-    <h1>welcome to the component Library</h1>
-    <p>
-      Hi I am Suyash Tiwari this is my first portfolio to get in to the level
-      one of neog camp
-    </p>
-
-    <hr />
-
-    <h2>@Typography</h2>
-    <h1>this is biggest heading</h1>
-    <h2>this is relatively small heading</h2>
-    <p>some normal text for writting something</p>
-    <small>this is relatively smaller text</small>
-
-    <hr />
-
-    <h2>@containers</h2>
-    <h3>fluid containers</h3>
-    <div class="container container-fluid" >this is a fluid container</div>
-
-    <h3>center containers</h3>
-    <div class="container  container-center">this is a center container</div>
-    <hr />
-
-    <h2>@links</h2>
-    <a class="link link-primary" href="/">primary link</a>
-    <a class="link link-secondary" href="/">secondary link</a>
-
-    <hr />
-
-    <h2>@lists</h2>
-    <h3>unodered list</h3>
-    <ul class="list-without-bullet">
-      <li>item one</li>
-      <li>item two</li>
-      <li>item three</li>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | Portfolio</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <nav class="navigation container">
+    <div class="nav-brand">Suyash Tiwari</div>
+    <ul class="list-without-bullet nav">
+      <li class="list-inline">
+        <a class="link link-active" href="/">home</a>
+      </li>
+      <li class="list-inline"><a class="link" href="/projects.html">projects</a></li>
+      <li class="list-inline"><a class="link" href="/blogs.html">blogs</a></li>
     </ul>
+  </nav>
+  <header class="hero">
+    <img class="hero-image" src="/images/pimage.svg" alt="Loading....." />
+    <h1 class="hero-heading">
+      Suyash Tiwari the <span class="hero-span">Web Developer</span>
+    </h1>
+  </header>
+  <section class="section og">
+    <div class="container container-center">
+      <h3>Technologies</h3>
+      <p>i know css java script html</p>
+    </div>
+  </section>
 
-    <h3>unodered inline list</h3>
-    <ul class="list-without-bullet">
-      <li class="list-inline">item one</li>
-      <li class="list-inline">item two</li>
-      <li class="list-inline">item three</li>
+
+
+  <section class="section oo">
+    <div class="container container-center">
+      <h3>Projects</h3>
+      <p>I want to showcase my projects</p>
+      <a class="link link-primary" href="/"> Browse Projects</a>
+    </div>
+  </section>
+
+  <section class="section og">
+    <div class="container container-center">
+      <h3>Blogs</h3>
+      <p>Here are some of my blogs to showcase</p>
+      <a style="color:rgb(159, 164, 170);" class="link link-secondary" href="/"> Browse Blogs</a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-heading">Contact me</div>
+    <ul class="social-liks list-without-bullet ">
+      <li class="list-inline">
+        <a class="link-primary link" href="/">Linked in</a>
+      </li>
+      <li class="list-inline"><a class="link-primary link" href="/">Github</a></li>
     </ul>
+  </footer>
 
-    <h3>reverse order list</h3>
-    <ol reversed>
-      <li>item one</li>
-      <li>item two</li>
-      <li>item three</li>
-    </ol>
 
-    <hr />
 
-    <h2>@nav</h2>
-    <nav class="navigation container">
-      <div class="nav-brand">Suyash Tiwari</div>
-      <ul class="list-without-bullet nav ">
-        <li class="list-inline">
-          <a class="link link-active" href="/">home</a>
-        </li>
-        <li class="list-inline"><a class="link" href="/">projects</a></li>
-        <li class="list-inline"><a class="link" href="/">blogs</a></li>
-      </ul>
-    </nav>
 
-    <hr>
 
-    <h2>@header</h2> 
-    <header class="hero" >
-      <img class="hero-image" src="images/pimage.svg" alt="Loading....." />
-      <h1 class="hero-heading">Suyash Tiwari the <span class="hero-span">Web Developer</span></h1>
-    </header>
 
-    <hr />
-    <h2>@section</h2>
-    <section>
-      <h3>green section</h3>
-      <p>this will have greeen background</p>
-    </section>
-    <section>
-      <h3>off green section</h3>
-      <p>this will not have greeen background</p>
-    </section>
-    <hr>
-    <h2>@footer</h2>
-    <footer>
-      <div>Some heading of footer</div>
-      <ul>
-        <li>link 1</li>
-        <li>link 2</li>
-      </ul>
-    </footer>
-
-    
-  </body>
+  
+</body>
 </html>
