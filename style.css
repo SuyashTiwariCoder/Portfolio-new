@@ -2,7 +2,7 @@
 
 :root {
   --primary-link: #23ef38;
-  --dark-grey: #6B7280;
+  --dark-grey: #687280;
 
 }
 
@@ -17,6 +17,7 @@ body {
 .container-center {
   max-width: 600px;
   margin: auto;
+  padding: 1rem;
 }
 
 /*hr*/
@@ -36,6 +37,7 @@ hr {
   background-color: var(--primary-link);
   color: grey;
   border-radius: 0.5rem;
+  
 }
 
 .link-secondary {
@@ -43,12 +45,15 @@ hr {
   border-radius: 0.5rem;
   border: 1px solid var(--primary-link);
   color: grey;
+   
 }
 
 /*lists*/
 
 .list-without-bullet {
   list-style: none;
+  padding: 2rem;
+ 
 }
 
 .list-inline {
